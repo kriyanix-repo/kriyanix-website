@@ -1,6 +1,9 @@
-import Image from "next/image"
+"use client"
+import { useState } from "react"
 
 export default function Technology() {
+    const [imageError, setImageError] = useState(false)
+
     return (
         <section id="technology" className="py-20 bg-gray-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -82,14 +85,17 @@ export default function Technology() {
                     </div>
 
                     <div className="order-1 lg:order-2 flex justify-center">
-                        <div className="relative w-full max-w-md aspect-square">
-                            <Image
-                                src="/AI-India-Fusion.png"
-                                alt="AI Technology Illustration"
-                                width={400}
-                                height={400}
-                                className="object-contain"
-                            />
+                        <div className="relative w-full max-w-md h-[400px] bg-white rounded-lg shadow-md overflow-hidden">
+                            {imageError ? (
+                                <img src="/test-image.svg" alt="AI Technology Illustration" className="w-full h-full object-contain" />
+                            ) : (
+                                <img
+                                    src="/AI-India-Fusion.png"
+                                    alt="AI Technology Illustration"
+                                    className="w-full h-full object-contain"
+                                    onError={() => setImageError(true)}
+                                />
+                            )}
                         </div>
                     </div>
                 </div>
