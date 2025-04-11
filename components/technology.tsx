@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import { useState } from "react"
 
 export default function Technology() {
@@ -87,12 +88,22 @@ export default function Technology() {
                     <div className="order-1 lg:order-2 flex justify-center">
                         <div className="relative w-full max-w-md h-[400px] bg-white rounded-lg shadow-md overflow-hidden">
                             {imageError ? (
-                                <img src="/test-image.svg" alt="AI Technology Illustration" className="w-full h-full object-contain" />
+                                <Image
+                                    src="/test-image.svg"
+                                    alt="AI Technology Illustration"
+                                    width={400}
+                                    height={400}
+                                    className="w-full h-full object-contain"
+                                    priority
+                                />
                             ) : (
-                                <img
+                                <Image
                                     src="/AI-India-Fusion.png"
                                     alt="AI Technology Illustration"
+                                    width={400}
+                                    height={400}
                                     className="w-full h-full object-contain"
+                                    priority
                                     onError={() => setImageError(true)}
                                 />
                             )}
