@@ -1,13 +1,12 @@
 {
-    "name": "kriyanix",
+    "name": "kriyanix-website",
     "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
-        "type-check": "tsc --noEmit"
+        "lint": "next lint"
     },
     "dependencies": {
         "@radix-ui/react-slot": "^1.0.2",

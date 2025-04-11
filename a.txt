@@ -1,0 +1,33 @@
+ Volume in drive C has no label.
+ Volume Serial Number is C829-3454
+
+ Directory of C:\kriyanix\kriyanix-website
+
+12-04-2025  00:19    <DIR>          .
+12-04-2025  00:19    <DIR>          ..
+12-04-2025  00:14               316 .env.local
+12-04-2025  00:11               488 .eslintrc.json
+12-04-2025  00:10               338 .gitignore
+12-04-2025  00:19    <DIR>          .next
+12-04-2025  00:11               141 .prettierrc
+12-04-2025  00:19                 0 a.txt
+12-04-2025  00:05    <DIR>          app
+12-04-2025  00:15    <DIR>          components
+12-04-2025  00:12               378 components.json
+12-04-2025  00:06    <DIR>          context
+12-04-2025  00:16    <DIR>          lib
+12-04-2025  00:11               412 middleware.ts
+12-04-2025  00:17               206 next-env.d.ts
+12-04-2025  00:10               451 next.config.mjs
+12-04-2025  00:16    <DIR>          node_modules
+11-04-2025  23:52                 5 one.txt
+12-04-2025  00:16           262,237 package-lock.json
+12-04-2025  00:16             1,096 package.json
+12-04-2025  00:11               100 postcss.config.js
+12-04-2025  00:15    <DIR>          public
+11-04-2025  23:37                23 README.md
+12-04-2025  00:03             2,808 tailwind.config.ts
+12-04-2025  00:10               863 tsconfig.json
+12-04-2025  00:05    <DIR>          types
+              16 File(s)        269,862 bytes
+              10 Dir(s)   6,987,354,112 bytes free

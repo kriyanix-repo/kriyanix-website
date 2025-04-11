@@ -52,6 +52,9 @@ const config = {
                     DEFAULT: "hsl(var(--card))",
                     foreground: "hsl(var(--card-foreground))",
                 },
+                // Custom Kriyanix colors
+                "kriyanix-orange": "hsl(var(--kriyanix-orange))",
+                "kriyanix-purple": "hsl(var(--kriyanix-purple))",
             },
             borderRadius: {
                 lg: "var(--radius)",

@@ -82,11 +82,12 @@ export default function Technology() {
                     </div>
 
                     <div className="order-1 lg:order-2 flex justify-center">
-                        <div className="relative w-full max-w-md h-80 sm:h-96">
+                        <div className="relative w-full max-w-md aspect-square">
                             <Image
-                                src="/indotech-weave.png"
+                                src="/AI-India-Fusion.png"
                                 alt="AI Technology Illustration"
-                                fill
+                                width={400}
+                                height={400}
                                 className="object-contain"
                             />
                         </div>

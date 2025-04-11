@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 export default function Hero() {
     return (
         <section className="relative overflow-hidden bg-gradient-to-b from-white to-gray-50 py-20 sm:py-32">
-            <div className="absolute inset-0 bg-[url('/kaleidoscope-india.png')] bg-center opacity-5"></div>
+            <div className="absolute inset-0 bg-[url('/vibrant-indian-kaleidoscope.png')] bg-center opacity-5"></div>
 
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="max-w-4xl mx-auto text-center">
